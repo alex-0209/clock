@@ -1,4 +1,3 @@
-
 function clock() {
   const fullDate = new Date();
   let hour = fullDate.getHours();
