@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body{
+  background: url(/pattern.jpeg) repeat;
+}
+
+main{
+  background: #ccc;
+  width: 500px;
+  height: 175px;
+  margin: 100px auto;
+  padding: 35px;
+
+  position: relative;
+}
+
+.header{
+  position: absolute;
+  left: 40%;
+  top: -7%;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px;
+  background-color: rgb(101, 193, 76);
+  width: 85px;
+}
+
+.clock{
+  display: flex;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 55px; 
+  height: 100%;
+  padding-top: 25px;
+  background-color: #ebebeb;
+}
+
+.clock > div {
+  margin:  0 auto;
+}
+
